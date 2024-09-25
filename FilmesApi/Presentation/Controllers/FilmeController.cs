@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using FilmesApi.Data;
-using FilmesApi.Data.Dtos;
-using FilmesApi.Models;
+using FilmesApi.Application.Data.Dtos;
+using FilmesApi.Domain.Models;
+using FilmesApi.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 
-namespace FilmesApi.Controllers
+namespace FilmesApi.Presentation.Controllers
 {
     [ApiController]
     [Route("[controller]")]

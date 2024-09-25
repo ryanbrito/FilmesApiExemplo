@@ -1,4 +1,4 @@
-using FilmesApi.Data;
+using FilmesApi.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 
