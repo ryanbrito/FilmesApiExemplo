@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using FilmesApi.Application.Data.Dtos;
+using FilmesApi.Application.Dtos;
 using FilmesApi.Domain.Models;
 using FilmesApi.Infrastructure;
 using Microsoft.AspNetCore.Mvc;

@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "filmeDto",
-        "Type": "FilmesApi.Application.Data.Dtos.CreateFilmeDto",
+        "Type": "FilmesApi.Application.Dtos.CreateFilmeDto",
         "IsRequired": true
       }
     ],
