@@ -25,7 +25,7 @@ namespace FilmesApi.Presentation.Controllers
         [HttpPost]
         public IActionResult AdicionaFilme([FromBody] CreateFilmeDto filmeDto)
         {
-            Filme filme = IMapper.Map<Filme>(filmeDto);
+            Filme filme = _mapper.Map<Filme>(filmeDto);
             _context.Filmes.Add(filme);
             _context.SaveChanges();
             return CreatedAtAction(nameof(RecuperaFilmePorId), new { id = filme.Id }, filme);

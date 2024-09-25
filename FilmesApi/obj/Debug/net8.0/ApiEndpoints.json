@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "FilmesApi.Controllers.FilmeController",
+    "ContainingType": "FilmesApi.Presentation.Controllers.FilmeController",
     "Method": "AdicionaFilme",
     "RelativePath": "Filme",
     "HttpMethod": "POST",
@@ -8,15 +8,15 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "filme",
-        "Type": "FilmesApi.Models.Filme",
+        "Name": "filmeDto",
+        "Type": "FilmesApi.Application.Data.Dtos.CreateFilmeDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FilmesApi.Controllers.FilmeController",
+    "ContainingType": "FilmesApi.Presentation.Controllers.FilmeController",
     "Method": "RecuperaFilmes",
     "RelativePath": "Filme",
     "HttpMethod": "GET",
@@ -36,7 +36,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[FilmesApi.Models.Filme, FilmesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FilmesApi.Domain.Models.Filme, FilmesApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -47,7 +47,7 @@
     ]
   },
   {
-    "ContainingType": "FilmesApi.Controllers.FilmeController",
+    "ContainingType": "FilmesApi.Presentation.Controllers.FilmeController",
     "Method": "RecuperaFilmePorId",
     "RelativePath": "Filme/{id}",
     "HttpMethod": "GET",
